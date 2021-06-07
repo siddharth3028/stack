@@ -20,6 +20,7 @@ class stack
         else
             stck[++tos]=item;
     }
+    //pop the item from stack and return to user 
     int pop()
     {
         if(tos<0){
@@ -31,6 +32,7 @@ class stack
             
     }
 }
+//main class to call child class
 public class siddharth {
     public static void main(String[] args)
     {
